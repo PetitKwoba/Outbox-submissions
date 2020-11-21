@@ -1,0 +1,99 @@
+body {
+    background-color: aqua;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+hr {
+    list-style: decimal-leading-zero;
+    color: darkblue;
+    size: 200px;
+}
+
+
+/*backgound color to nav bar*/
+
+.navbar {
+    background-color: #123;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    top: 0px;
+}
+
+
+/*links inside nav bar*/
+
+.navbar a {
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    font-size: 150%;
+    padding: 1%;
+    color: aquamarine;
+    border-radius: 20%
+}
+
+.contact {
+    margin-right: 5%;
+}
+
+
+/*links inside nav bar on hover*/
+
+.navbar a:hover {
+    background-color: aqua;
+    color: #123;
+}
+
+
+/*add color to active link*/
+
+.navbar a.active:active {
+    background-color: cadetblue;
+}
+
+section {
+    background-color: darkgray;
+    text-align: left;
+}
+
+
+/*section headings*/
+
+section h2 {
+    background-color: #123;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-bottom: 2%;
+    border-radius: 5%;
+    color: aqua;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+aside {
+    text-align: right;
+    padding: 1%;
+}
+
+#social-media-link {
+    display: flex;
+    position: relative;
+    padding-bottom: 1%;
+    left: 10px;
+}
+
+span {
+    position: absolute;
+    bottom: 3%;
+    background-color: darkseagreen;
+    opacity: .8;
+}
